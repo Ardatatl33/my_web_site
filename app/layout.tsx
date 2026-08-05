@@ -13,10 +13,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const image = `${protocol}://${host}/og.png`;
 
   return {
-    title: "Arda Tatlı — Mobil, AI & Data Science",
-    description: "Bilgisayar mühendisliği öğrencisi Arda Tatlı'nın kişisel portfolyosu. Mobil geliştirme, yapay zekâ ve veri bilimi projeleri.",
-    openGraph: { title: "Arda Tatlı", description: "Mobil • AI • Data Science", images: [{ url: image, width: 1536, height: 1024 }] },
-    twitter: { card: "summary_large_image", title: "Arda Tatlı", description: "Mobil • AI • Data Science", images: [image] },
+    title: "Arda Tatlı — Software Developer",
+    description: "Software Developer Arda Tatlı'nın kişisel portfolyosu ve yazılım projeleri.",
+    openGraph: { title: "Arda Tatlı", description: "Software Developer", images: [{ url: image, width: 1536, height: 1024 }] },
+    twitter: { card: "summary_large_image", title: "Arda Tatlı", description: "Software Developer", images: [image] },
   };
 }
 

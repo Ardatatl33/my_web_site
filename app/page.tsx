@@ -82,7 +82,7 @@ export default function Home() {
             dönüştürüyorum.
           </h1>
           <p className="hero-sub reveal delay-3">
-            Mobil, yapay zekâ ve veri bilimi alanlarında üreten<br className="desktop" /> bilgisayar mühendisliği öğrencisi.
+            Software Developer<br className="desktop" /> ve bilgisayar mühendisliği öğrencisi.
           </p>
           <div className="hero-actions reveal delay-4">
             <a className="primary-button" href="#projects">Projelerimi keşfet <b>↘</b></a>
