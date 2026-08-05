@@ -179,10 +179,10 @@ export default function Home() {
         <a href="mailto:ahmetarda297210@gmail.com">ahmetarda297210@gmail.com <span>↗</span></a>
         <div className="social-links">
           <a href="https://github.com/Ardatatl33" target="_blank" rel="noreferrer" aria-label="GitHub profilimi aç">
-            <img src="https://cdn.simpleicons.org/github/151612" alt="" />
+            <img src="/github.svg" alt="" />
           </a>
           <a href="https://www.linkedin.com/in/ahmet-arda-tatl%C4%B1-8464b4332/" target="_blank" rel="noreferrer" aria-label="LinkedIn profilimi aç">
-            <img src="https://cdn.simpleicons.org/linkedin/151612" alt="" />
+            <img src="/linkedin.svg" alt="" />
           </a>
         </div>
         <div className="contact-meta"><span>Edirne, Türkiye</span></div>
