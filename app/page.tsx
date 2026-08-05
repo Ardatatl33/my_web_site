@@ -10,6 +10,7 @@ const projects = [
     title: "Finance App",
     type: "Mobil Uygulama",
     stack: ["Flutter", "Java"],
+    href: "https://github.com/Ardatatl33/finance_app",
     copy: "Finansal verileri anlaşılır bir mobil deneyime dönüştüren uygulama konsepti.",
     tone: "lime",
   },
@@ -18,6 +19,7 @@ const projects = [
     title: "Ranch Dürüm QR Menü",
     type: "Web Deneyimi",
     stack: ["React.js"],
+    href: "https://github.com/Ardatatl33/master-durum-qr-menu",
     copy: "Restoran deneyimini hızlandıran, mobil öncelikli dijital QR menü.",
     tone: "violet",
   },
@@ -26,6 +28,7 @@ const projects = [
     title: "AI & Data Science",
     type: "Algoritma Çalışmaları",
     stack: ["Python", "AI"],
+    href: "https://github.com/Ardatatl33/basic_ai_data_science",
     copy: "Yapay zekâ ve veri bilimi temellerini gerçek problemler üzerinde keşfeden çalışmalar.",
     tone: "blue",
   },
@@ -157,14 +160,14 @@ export default function Home() {
         <div className="projects-head"><h2>Ürettiklerim<span>.</span></h2><p>Küçük fikirlerden çalışan ürünlere.</p></div>
         <div className="project-grid">
           {projects.map((project) => (
-            <article className={`project-card ${project.tone}`} key={project.title} tabIndex={0}>
+            <a className={`project-card ${project.tone}`} key={project.title} href={project.href} target="_blank" rel="noreferrer" aria-label={`${project.title} GitHub reposunu aç`}>
               <div className="project-top"><span>{project.number}</span><i>↗</i></div>
               <div className="project-art" aria-hidden="true"><b>{project.title.charAt(0)}</b><span /></div>
               <small>{project.type}</small>
               <h3>{project.title}</h3>
               <p>{project.copy}</p>
               <div className="stack">{project.stack.map((item) => <span key={item}>{item}</span>)}</div>
-            </article>
+            </a>
           ))}
         </div>
       </section>
@@ -174,7 +177,11 @@ export default function Home() {
         <p>YENİ BİR FİKRİN Mİ VAR?</p>
         <h2>Birlikte<br /><em>üretelim.</em></h2>
         <a href="mailto:ahmetarda297210@gmail.com">ahmetarda297210@gmail.com <span>↗</span></a>
-        <div className="contact-meta"><span>Edirne, Türkiye</span><span>0544 310 66 07</span></div>
+        <div className="social-links">
+          <a href="https://github.com/Ardatatl33" target="_blank" rel="noreferrer">GitHub profilim <span>↗</span></a>
+          <a href="https://www.linkedin.com/in/ahmet-arda-tatl%C4%B1-8464b4332/" target="_blank" rel="noreferrer">LinkedIn profilim <span>↗</span></a>
+        </div>
+        <div className="contact-meta"><span>Edirne, Türkiye</span></div>
       </section>
 
       <footer><a className="brand" href="#top">AT<span>.</span></a><p>© 2026 Arda Tatlı</p><a href="#top">Yukarı dön ↑</a></footer>
