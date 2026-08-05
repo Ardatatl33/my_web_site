@@ -178,8 +178,12 @@ export default function Home() {
         <h2>Birlikte<br /><em>üretelim.</em></h2>
         <a href="mailto:ahmetarda297210@gmail.com">ahmetarda297210@gmail.com <span>↗</span></a>
         <div className="social-links">
-          <a href="https://github.com/Ardatatl33" target="_blank" rel="noreferrer">GitHub profilim <span>↗</span></a>
-          <a href="https://www.linkedin.com/in/ahmet-arda-tatl%C4%B1-8464b4332/" target="_blank" rel="noreferrer">LinkedIn profilim <span>↗</span></a>
+          <a href="https://github.com/Ardatatl33" target="_blank" rel="noreferrer" aria-label="GitHub profilimi aç">
+            <img src="https://cdn.simpleicons.org/github/151612" alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/ahmet-arda-tatl%C4%B1-8464b4332/" target="_blank" rel="noreferrer" aria-label="LinkedIn profilimi aç">
+            <img src="https://cdn.simpleicons.org/linkedin/151612" alt="" />
+          </a>
         </div>
         <div className="contact-meta"><span>Edirne, Türkiye</span></div>
       </section>
