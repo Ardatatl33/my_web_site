@@ -23,6 +23,15 @@ const projects = [
     copy: "Finansal verileri anlaşılır bir mobil deneyime dönüştüren uygulama konsepti.",
     tone: "lime",
   },
+  {
+    number: "03",
+    title: "İzmir Ev Fiyat Tahmini",
+    type: "Makine Öğrenmesi",
+    stack: ["Python", "Pandas", "Scikit-learn"],
+    href: "https://github.com/Ardatatl33/Izmir_ev_fiyat_tahmini",
+    copy: "İzmir'deki ev ilanlarını analiz ederek doğrusal ve polinomal regresyon modellerini karşılaştıran fiyat tahmin çalışması.",
+    tone: "blue",
+  },
 ];
 
 export default function Home() {
