@@ -90,9 +90,15 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-visual reveal delay-3">
-          <div className="portrait-frame">
+          <div className="identity-frame" aria-label="Arda Tatlı — Software Developer">
             <div className="status"><i /> Yeni fırsatlara açık</div>
-            <img src="/arda-tatli.jpg" alt="Arda Tatlı" />
+            <div className="identity-grid" aria-hidden="true" />
+            <div className="identity-orbit" aria-hidden="true"><span>CODE · CREATE · LEARN ·</span></div>
+            <div className="identity-mark" aria-hidden="true">AT<span>.</span></div>
+            <div className="identity-role">
+              <small>01 / PORTFOLIO</small>
+              <strong>SOFTWARE<br />DEVELOPER</strong>
+            </div>
             <div className="code-card" aria-hidden="true">
               <span>currently_building</span>
               <strong>the future();</strong>
