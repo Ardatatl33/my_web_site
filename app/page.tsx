@@ -159,6 +159,23 @@ export default function Home() {
           <div><small>SEÇİLİ EĞİTİMLER</small><p>Huawei AI & Data Science Bootcamp</p><p>BTK Akademi React.js & Flutter</p></div>
           <div><small>DİL</small><p>İngilizce <b>A2 — B1</b></p><p>Berlitz Dil Okulları</p></div>
         </div>
+        <a
+          className="certificate-card"
+          href="/data-science-certificate.png"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Huawei Data Science and Machine Learning Bootcamp sertifikasını tam boy aç"
+        >
+          <div className="certificate-copy">
+            <small>SERTİFİKA / 2026</small>
+            <h3>Data Science &<br />Machine Learning</h3>
+            <p>Huawei ve Türkiye Yapay Zekâ Akademisi Bootcamp katılım ve başarı sertifikası.</p>
+            <span>Tam boy görüntüle ↗</span>
+          </div>
+          <div className="certificate-preview">
+            <img src="/data-science-certificate.png" alt="Ahmet Arda Tatlı Data Science and Machine Learning Bootcamp sertifikası" />
+          </div>
+        </a>
       </section>
 
       <section className="projects section" id="projects">
