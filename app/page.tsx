@@ -178,16 +178,16 @@ export default function Home() {
         </a>
         <a
           className="certificate-card"
-          href="/berlitz-english-level-2.pdf"
+          href="/berlitz-english-level-2-preview.png"
           target="_blank"
           rel="noreferrer"
-          aria-label="Berlitz English Level 2 sertifikasını PDF olarak aç"
+          aria-label="Berlitz English Level 2 sertifikasını tam boy aç"
         >
           <div className="certificate-copy">
             <small>SERTİFİKA / 2026</small>
             <h3>Berlitz English<br />Level 2</h3>
             <p>Berlitz English Level 2 (Beginner) programı başarı sertifikası.</p>
-            <span>PDF olarak görüntüle ↗</span>
+            <span>Tam boy görüntüle ↗</span>
           </div>
           <div className="certificate-preview">
             <img src="/berlitz-english-level-2-preview.png" alt="Ahmet Arda Tatlı Berlitz English Level 2 sertifikasının ön izlemesi" />
