@@ -176,6 +176,23 @@ export default function Home() {
             <img src="/data-science-certificate.png" alt="Ahmet Arda Tatlı Data Science and Machine Learning Bootcamp sertifikası" />
           </div>
         </a>
+        <a
+          className="certificate-card"
+          href="/berlitz-english-level-2.pdf"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Berlitz English Level 2 sertifikasını PDF olarak aç"
+        >
+          <div className="certificate-copy">
+            <small>SERTİFİKA / 2026</small>
+            <h3>Berlitz English<br />Level 2</h3>
+            <p>Berlitz English Level 2 (Beginner) programı başarı sertifikası.</p>
+            <span>PDF olarak görüntüle ↗</span>
+          </div>
+          <div className="certificate-preview">
+            <img src="/berlitz-english-level-2-preview.png" alt="Ahmet Arda Tatlı Berlitz English Level 2 sertifikasının ön izlemesi" />
+          </div>
+        </a>
       </section>
 
       <section className="projects section" id="projects">
