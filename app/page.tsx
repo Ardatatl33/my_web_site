@@ -159,6 +159,7 @@ export default function Home() {
           <div><small>SEÇİLİ EĞİTİMLER</small><p>Huawei AI & Data Science Bootcamp</p><p>BTK Akademi React.js & Flutter</p></div>
           <div><small>DİL</small><p>İngilizce <b>A2 — B1</b></p><p>Berlitz Dil Okulları</p></div>
         </div>
+        <div className="certificates-grid">
         <a
           className="certificate-card"
           href="/data-science-certificate.png"
@@ -193,6 +194,7 @@ export default function Home() {
             <img src="/berlitz-english-level-2-preview.png" alt="Ahmet Arda Tatlı Berlitz English Level 2 sertifikasının ön izlemesi" />
           </div>
         </a>
+        </div>
       </section>
 
       <section className="projects section" id="projects">
