@@ -194,6 +194,23 @@ export default function Home() {
             <img src="/berlitz-english-level-2-preview.png" alt="Ahmet Arda Tatlı Berlitz English Level 2 sertifikasının ön izlemesi" />
           </div>
         </a>
+        <a
+          className="certificate-card"
+          href="/kamp-plus-bilisim-kampi-sertifikasi.png"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Kamp+ Bilişim Kampı sertifikasını tam boy aç"
+        >
+          <div className="certificate-copy">
+            <small>SERTİFİKA / 2026</small>
+            <h3>Kamp+ Bilişim<br />Kampı</h3>
+            <p>Bursa Karacabey Gençlik Kampı katılım belgesi.</p>
+            <span>Tam boy görüntüle ↗</span>
+          </div>
+          <div className="certificate-preview">
+            <img src="/kamp-plus-bilisim-kampi-sertifikasi.png" alt="Ahmet Arda Tatlı Kamp+ Bilişim Kampı sertifikası" />
+          </div>
+        </a>
         </div>
       </section>
 
